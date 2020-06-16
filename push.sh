@@ -3,7 +3,7 @@
 
 #git befehle ausführen
 # https://help.github.com/en/github/using-git/splitting-a-subfolder-out-into-a-new-repository
-cd /c/gitrepos/Test
+cd /c/gitrepos/PrivateRepositoryName # ! replace PrivateRepositoryName
 #Test
 git add .
 git commit -m "Datenaktualisierung"
