@@ -3,7 +3,7 @@
 
 #git befehle ausführen
 rm -r -f /c/gitrepos/Test
-git clone https://username:password@github.com/username/PrivateRepositoryName.git
+git clone https://username:password@github.com/username/PrivateRepositoryName.git # ! relace username, password, PrivateRepositoryName
 cd /c/gitrepos/Test
 
 # bei bedarf noch etwas warten
