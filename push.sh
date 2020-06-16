@@ -10,7 +10,7 @@ git commit -m "Datenaktualisierung"
 git remote set-url origin https://username:password@github.com/username/PrivateRepositoryName.git # ! replace username, password, PrivateRepositoryName
 git push -u origin 
 printf "filter branch  start"
-git filter-branch --prune-empty --subdirectory-filter Data 
+git filter-branch --prune-empty --subdirectory-filter PublicOrdner # ! replace PublicOrdner = Ordner in PrivateRepositoryName der in den PulicRepositoryName verschoben werden soll
 printf "filter branch  end"
 #TestPublic
 git remote set-url origin https://username:password@github.com/username/PulicRepositoryName.git # ! replace username, password, PulicRepositoryName
